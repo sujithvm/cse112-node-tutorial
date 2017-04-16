@@ -298,8 +298,10 @@ and run
 $ gulp
 ```
 
-The documentation for the API will be outputted to `/doc`. 
+The documentation for the API will be outputted to `/doc`.  Open `index.html` to view documentation. Configure `apidoc.json` as specified here `http://apidocjs.com/` for more customizations.
 
+
+![documentation](https://github.com/sujithvm/cse112-node-tutorial/blob/master/readme_images/documentation.png)
 
 
 ### Continuous Integration 
