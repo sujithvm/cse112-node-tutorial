@@ -71,6 +71,8 @@ $ DEBUG=myapp:* npm start
 
 Now go to `http://localhost:3000/` in the browser and you see welcome message for Express.
 
+![express_welcome](https://github.com/sujithvm/cse112-node-tutorial/blob/master/readme_images/express_welcome.png)
+
 ### Let us push the code to Github
 
 1. Make a new repository and choose gitignore for Node. `gitignore` has files that you want to exclude. 
@@ -236,7 +238,7 @@ $ DEBUG=myapp:* npm start
 
 Let us check the route from Postman is a great tool for testing APIs. Postman chrome extension / app is available.
 
-
+![postman](https://github.com/sujithvm/cse112-node-tutorial/blob/master/readme_images/postman.png)
 
 ### Build tool Gulp
 
@@ -304,6 +306,7 @@ The documentation for the API will be outputted to `/doc`.
 
 Activate project on Travis 
 
+![travis_activate](https://github.com/sujithvm/cse112-node-tutorial/blob/master/readme_images/travis_activate.png)
 
 Now make a `.travis.yml` file (Please note the dot . )
 
@@ -333,6 +336,7 @@ $ git push origin master
 
 ```
 
+![travis_build](https://github.com/sujithvm/cse112-node-tutorial/blob/master/readme_images/travis_build.png)
 
 ### Deployment
 
