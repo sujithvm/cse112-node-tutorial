@@ -300,6 +300,14 @@ $ gulp
 
 The documentation for the API will be outputted to `/doc`.  Open `index.html` to view documentation. Configure `apidoc.json` as specified here `http://apidocjs.com/` for more customizations.
 
+Now let us publish the docs at some endpoint. 
+
+Modify the `app.js` to publish the docs as static resource at `/doc` endpoint. 
+
+```
+app.use('/doc', express.static(path.join(__dirname, 'doc')));
+```
+
 
 ![documentation](https://github.com/sujithvm/cse112-node-tutorial/blob/master/readme_images/documentation.png)
 
